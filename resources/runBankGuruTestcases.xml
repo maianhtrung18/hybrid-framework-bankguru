@@ -2,7 +2,7 @@
 <suite parallel="false" name="Bank Guru">
   <test name="Run on FIREFOX">
     <classes>
-      <class name="com.bankguru.user.User_01_New_Customer"/>
+       <class name="com.bankguru.user.User_01_New_Customer"/>
     </classes>
   </test> 
 </suite> 
