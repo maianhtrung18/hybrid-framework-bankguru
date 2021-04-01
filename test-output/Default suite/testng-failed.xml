@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nopcommerce.login.Level_03_Register_Login_Page_Object">
+        <methods>
+          <include name="Login_02_Login_To_System"/>
+          <include name="Login_01_Register_To_System"/>
+          <include name="initBrowser"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.login.Level_03_Register_Login_Page_Object -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

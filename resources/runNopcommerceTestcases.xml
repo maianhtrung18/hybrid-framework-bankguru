@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Bank Guru">
+  <test name="Run on FIREFOX">
+  
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.nopcommerce.login.Level_03_Register_Login_Page_Object"/>
+    </classes>
+  </test> 
+ 
+  
+  
+</suite> 

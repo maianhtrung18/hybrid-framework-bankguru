@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Live Guru">
+
+<parameter name="appURL" value="http://live.demoguru99.com/index.php/"/>
+
+
+ <test name="Run on Firefox">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.liveguru.login.Level_03_Register_Login_Page_Object"/>
+    </classes>
+  </test> 
+
+  <test name="Run on Chrome">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.liveguru.login.Level_03_Register_Login_Page_Object"/>
+    </classes>
+  </test> 
+</suite> 

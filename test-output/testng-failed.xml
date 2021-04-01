@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bank Guru]">
+  <test thread-count="5" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.nopcommerce.login.Level_03_Register_Login_Page_Object">
+        <methods>
+          <include name="Login_02_Login_To_System"/>
+          <include name="Login_01_Register_To_System"/>
+          <include name="initBrowser"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.login.Level_03_Register_Login_Page_Object -->
+    </classes>
+  </test> <!-- Run on FIREFOX(failed) -->
+</suite> <!-- Failed suite [Bank Guru] -->
